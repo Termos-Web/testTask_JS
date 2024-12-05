@@ -1,0 +1,28 @@
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 19px 34px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4F2CD9;
+    border: none;
+    border-radius: 5px;
+    min-width: 254px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(79, 44, 217, 0.7);
+}
+
+.btn--smaller {
+    min-width: 135px;
+    padding: 9px;
+}
+
+.btn--smallest {
+    min-width: 24px;
+    padding: 6px;
+    border-radius: 3px;
+}

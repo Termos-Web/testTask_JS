@@ -1,0 +1,79 @@
+.cars-form {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 46px 0 0 0;
+}
+
+.cars-form__sorting-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    position: relative;
+}
+
+.cars-form__sort-button {
+    display: flex;
+    padding: 6px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cars-form__sort-button:hover {
+    background-color: #D9D9D9;
+}
+
+.cars-form__sort-icon {
+    color: #262626;
+    user-select: none;
+}
+
+.cars-form__sort-category {
+    min-width: 204px;
+    appearance: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0 0 0 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cars-form__sort-category:focus-visible {
+    outline: none;
+}
+
+.cars-form__sort-option {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 0 0 4px; 
+}
+
+.cars-form__search-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+    padding: 6px 4px 6px 10px;
+    width: 445px;
+}
+
+.cars-form__search-input {
+    width: 100%;
+    border: none;
+}
+
+.cars-form__search-input:focus-visible {
+    outline: none;
+}
+
+.cars-form__search-btn {
+    display: flex;
+}
+
+.cars-form__search-icon {
+    color: #ffffff;
+}
